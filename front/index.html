@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <link rel="stylesheet" href= "estilo.css">
+</head>
+
+<body>
+    <h1>Calculadora Online</h1>
+<div id="container">
+
+<input type="text" id="display">
+
+<div id="teclado">
+    
+    <button class= 'entrada'id="limpar" value="" onclick="Limpar()"> Limpar</button>
+    <br>
+
+    <button class= 'entrada' id="7" value="7" onclick="Acomulador(7)">7 </button>
+    <button class= 'entrada' id="8" value="8"onclick="Acomulador(8)"> 8</button>
+    <button class= 'entrada' id="9" value="9"onclick="Acomulador(9)"> 9</button> 
+    <button class= 'entrada'id="soma" value="+"5 onclick="Operador('+')"> +</button>
+    <br>
+    <button class= 'entrada'id="4" value="4" onclick="Acomulador(4)">4 </button>
+    <button class= 'entrada' id="5" value="5" onclick="Acomulador(5)">5 </button>
+    <button class= 'entrada'id="6" value="6" onclick="Acomulador(6)">6 </button>
+    <button class= 'entrada'id="subtracao" value="-" onclick="Operador('-')"> -</button>
+    <br>
+    <button class= 'entrada'id="1" value="1" onclick="Acomulador(1)">1 </button>
+    <button class= 'entrada'id="2" value="2" onclick="Acomulador(2)">2 </button>
+    <button class= 'entrada'id="3" value="3" onclick="Acomulador(3)">3 </button>
+    <button class= 'entrada'id="divisao" value="/" onclick="Operador('/')">% </button>
+    <br>
+    <button class= 'entrada' id="0" value="0" onclick="Acomulador(0)" > 0</button>
+    <button class= 'entrada'id="." value="." onclick="Acomulador('.')"> .</button>
+    <button class= 'entrada'id="calcular" value="="  onclick= "Resultado()"> =</button>
+
+    <button class= 'entrada'id="multiplicacao" value="*" onclick="Operador('*')">x </button>
+    
+</div>
+
+</div>
+
+<footer> <center> &copy;ARS_DEV</center></footer>
+    <script src="./calcular.js"></script>
+</body>
+</html>
